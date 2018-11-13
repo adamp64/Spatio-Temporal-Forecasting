@@ -1,0 +1,28 @@
+
+\section{Very Rough Ideas}
+
+
+
+Need to use sine and cosine curves to removal the seasonality of the data.
+
+
+Notation station:
+
+Let $x_i^j$ be the jth value from feature i.
+
+
+Z(s,t) 
+    
+If it were linear it would look something like this:  
+$$\mathbf{y_j} = \beta_0 + \mathbf{x}_1^j\beta_1 + \mathbf{x}_2^j\beta_2+ ... + \mathbf{x}_n^j\beta_n + \epsilon $$
+
+where $x_i$ is the ith feature
+
+Or if we use Einstein summation notation:
+
+$$\mathbf{Y} = \mathbf{x}_i\beta_i + \beta_0 + \epsilon $$
+
+Potentially Gaussian Regression for historical data at all locations, then use kriging to generate a more accurate version considering spatial data.
+
+
+Multicollinearity
